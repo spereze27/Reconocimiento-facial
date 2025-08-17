@@ -1,0 +1,28 @@
+# Entorno virtual de Python
+# Nunca se debe subir, ya que es específico de cada máquina.
+.venv/
+venv/
+env/
+
+# Carpetas de datos, bases de datos y fotos de prueba
+# Se ignoran para no subir archivos grandes, generados o sensibles.
+data/
+database/
+fotos_test/
+
+# Caché de Python y archivos compilados
+# Se generan automáticamente al ejecutar el código.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos del sistema operativo
+# Archivos de metadatos generados por macOS y Windows.
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del editor de código (Opcional pero recomendado)
+# Para ignorar configuraciones locales de VSCode, PyCharm, etc.
+.vscode/
+.idea/
